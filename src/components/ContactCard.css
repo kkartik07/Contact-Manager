@@ -1,0 +1,56 @@
+.name {
+    font-weight: 500;
+    margin-bottom: 0em;
+}
+
+.delete {
+    width: 3em;
+    transition: all 0.2s;
+}
+
+.delete:hover {
+    border-radius: 5px;
+    background-color: rgb(238, 235, 235)
+}
+
+.avatar {
+    width: 4em;
+    margin-right: 2em;
+}
+
+.avatar-name {
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact p {
+    font-size: 20px;
+    margin: 0;
+}
+
+.name-phno {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.delete:hover {
+    transform: scale(1.1);
+    animation-name: delete-icon;
+    animation-duration: 500ms;
+}
+
+@keyframes delete-icon {
+    100% {
+        background-color: #b1acab;
+        color: rgb(217, 214, 214);
+    }
+}
