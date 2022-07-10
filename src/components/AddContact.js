@@ -25,14 +25,14 @@ function AddContact({ addContactHandler }) {
     return (
         <div className='container w-50'>
             <h2>Add Contact</h2>
-            <form className='form-control' onSubmit={addContact}>
+            <form className='form-control form' onSubmit={addContact}>
                 <div className="input-group input-group mb-3 mt-3">
                     <span className="input-group-text" id="inputGroup-sizing-sm">Name</span>
                     <input type="text" className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" value={name} onChange={e => setName(e.target.value)} />
                 </div>
                 <div className="input-group input-group mb-3">
                     <span className="input-group-text" id="inputGroup-sizing">Ph-No.</span>
-                    <input type="text" className="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" value={phno} onChange={e => setPhno(e.target.value)} />
+                    <input type="text" className="form-control input" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" value={phno} onChange={e => setPhno(e.target.value)} />
                 </div>
                 <div className="input-group input-group mb-3">
                     <span className="input-group-text" id="inputGroup-sizing">Email</span>

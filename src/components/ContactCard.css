@@ -41,12 +41,13 @@
     flex-direction: column;
 }
 
-
 .delete:hover {
     transform: scale(1.1);
     animation-name: delete-icon;
     animation-duration: 500ms;
 }
+
+
 
 @keyframes delete-icon {
     100% {

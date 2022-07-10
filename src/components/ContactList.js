@@ -15,8 +15,9 @@ function ContactList(props) {
 
     return (
         <div>
-            <Link to='/add'><button className='btn btn-primary'>Add Contact</button></Link>
-            <h1>contactlist</h1>
+            <Link to='/add'><button className='btn btn-primary m-4 btn-lg'>Add Contact</button></Link>
+            <hr />
+            <h1>Contact List</h1><hr />
             {renderContacts}
         </div >
     )

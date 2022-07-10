@@ -1,3 +1,16 @@
+body {
+  background: linear-gradient(0.25turn, #b7e2f5, #ebf8e1, #fdd4a8);
+
+}
+
+.form {
+  background: linear-gradient(0.25turn, #fdf3e7, #f4feed, #e9f7fd);
+}
+
+.container {
+  border-radius: 10px;
+}
+
 .App {
   text-align: center;
 }
@@ -11,6 +24,10 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+a {
+  text-decoration: none;
 }
 
 .App-header {
@@ -32,6 +49,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

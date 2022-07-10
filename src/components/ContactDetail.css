@@ -36,3 +36,21 @@
 #name {
     font-size: 30px;
 }
+
+
+/* from header component */
+.item {
+    margin-left: 0.7em;
+    margin-right: 0.7em;
+    font-size: 1.2em;
+}
+
+.brand {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.7em;
+}
+
+.logo {
+    margin-right: 0.4em;
+}
