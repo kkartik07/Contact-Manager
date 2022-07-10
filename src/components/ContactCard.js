@@ -23,8 +23,8 @@ function ContactCard(props) {
                 <div>
                     <Link to='/edit' state={{ contact: contact }}>
                         <img src={editIcon} alt='edit-icon' className='delete m-4' onClick={() => props.clickHandler(contact.id)} />
-                    </Link>
-                    <img src={deleteIcon} alt='delete-icon' className='delete m-4' />
+                    </Link >
+                    <img src={deleteIcon} alt='delete-icon' className='delete m-4' onClick={() => props.clickHandler(contact.id)} />
                 </div>
             </div>
 
